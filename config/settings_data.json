@@ -1,24 +1,24 @@
 {
   "current": {
-    "colors_solid_button_labels": "#1f1f21",
-    "colors_accent_1": "#e3fc02",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#121212",
     "gradient_accent_1": "",
-    "colors_accent_2": "#ffffff",
+    "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
-    "colors_text": "#ffffff",
-    "colors_outline_button_labels": "#e3fc02",
-    "colors_background_1": "#1f1f21",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#EEEEEE",
     "gradient_background_1": "",
-    "colors_background_2": "#1f1f21",
+    "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
-    "type_header_font": "oswald_n5",
-    "heading_scale": 140,
-    "type_body_font": "avenir_next_n5",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1600,
-    "spacing_sections": 52,
-    "spacing_grid_horizontal": 40,
-    "spacing_grid_vertical": 40,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -38,9 +38,9 @@
     "inputs_radius": 0,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_vertical_offset": 0,
     "inputs_shadow_blur": 5,
-    "card_style": "card",
+    "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
     "card_color_scheme": "background-2",
@@ -58,8 +58,8 @@
     "text_boxes_shadow_horizontal_offset": 0,
     "text_boxes_shadow_vertical_offset": 4,
     "text_boxes_shadow_blur": 5,
-    "media_border_thickness": 0,
-    "media_border_opacity": 10,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
     "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
@@ -81,7 +81,7 @@
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "background-1",
+    "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
     "social_facebook_link": "",
@@ -99,6 +99,16 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
+    "color1": "#FC6F19",
+    "color2": "#FD7C2D",
+    "color3": "#FF8B44",
+    "color4": "#FFA167",
+    "color5": "#FFB98E",
+    "gray1": "#333333",
+    "gray2": "#4F4F4F",
+    "gray3": "#828282",
+    "gray4": "#BDBDBD",
+    "gray5": "#E0E0E0",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -106,8 +116,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "WELCOME TO OUR STORE",
-              "color_scheme": "accent-1",
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
@@ -121,9 +131,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 80,
+          "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -137,36 +147,44 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "link-list": {
+          "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "ABOUT US",
+              "heading": "Quick links",
               "menu": "footer"
             }
           },
-          "text": {
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<p><em>GoPro helps the world to capture and share itself in immersive and exciting ways. We are a force for positivity, celebrating all things awesome while inspiring people to pursue their passions.<\/em><\/p><p><em>Founded in 2002 by Nick Woodman, a photo and video enthusiast in search of a better way to film himself and his friends surfing, GoPro has grown into a relentlessly innovative brand loved around the world for its insanely versatile and enabling products.<\/em><\/p><p><em>We are GoPro and we love what we build.<\/em><\/p>"
+              "heading": "Our mission",
+              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "link-list",
-          "text"
+          "footer-0",
+          "footer-1",
+          "footer-2"
         ],
         "settings": {
-          "color_scheme": "background-2",
-          "newsletter_enable": false,
-          "newsletter_heading": "",
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
-          "margin_top": 0,
-          "padding_top": 40,
-          "padding_bottom": 40
+          "margin_top": 48,
+          "padding_top": 36,
+          "padding_bottom": 36
         }
       },
       "main-password-header": {
@@ -190,25 +208,35 @@
   },
   "presets": {
     "Default": {
-      "colors_solid_button_labels": "#1f1f21",
-      "colors_accent_1": "#e3fc02",
+      "colors_solid_button_labels": "#ffffff",
+      "color1": "#FC6F19",
+      "color2": "#FD7C2D",
+      "color3": "#FF8B44",
+      "color4": "#FFA167",
+      "color5": "#FFB98E",
+      "gray1": "#333333",
+      "gray2": "#4F4F4F",
+      "gray3": "#828282",
+      "gray4": "#BDBDBD",
+      "gray5": "#E0E0E0",
+      "colors_accent_1": "#121212",
       "gradient_accent_1": "",
-      "colors_accent_2": "#ffffff",
+      "colors_accent_2": "#334fb4",
       "gradient_accent_2": "",
-      "colors_text": "#ffffff",
-      "colors_outline_button_labels": "#e3fc02",
-      "colors_background_1": "#1f1f21",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
       "gradient_background_1": "",
-      "colors_background_2": "#1f1f21",
+      "colors_background_2": "#f3f3f3",
       "gradient_background_2": "",
-      "type_header_font": "oswald_n5",
-      "heading_scale": 140,
-      "type_body_font": "avenir_next_n5",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
       "body_scale": 100,
-      "page_width": 1600,
-      "spacing_sections": 52,
-      "spacing_grid_horizontal": 40,
-      "spacing_grid_vertical": 40,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
       "buttons_border_thickness": 1,
       "buttons_border_opacity": 100,
       "buttons_radius": 0,
@@ -230,7 +258,7 @@
       "inputs_shadow_horizontal_offset": 0,
       "inputs_shadow_vertical_offset": 4,
       "inputs_shadow_blur": 5,
-      "card_style": "card",
+      "card_style": "standard",
       "card_image_padding": 0,
       "card_text_alignment": "left",
       "card_color_scheme": "background-2",
@@ -248,8 +276,8 @@
       "text_boxes_shadow_horizontal_offset": 0,
       "text_boxes_shadow_vertical_offset": 4,
       "text_boxes_shadow_blur": 5,
-      "media_border_thickness": 0,
-      "media_border_opacity": 10,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
       "media_radius": 0,
       "media_shadow_opacity": 0,
       "media_shadow_horizontal_offset": 0,
@@ -271,7 +299,7 @@
       "badge_position": "bottom left",
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "accent-2",
-      "sold_out_badge_color_scheme": "background-1",
+      "sold_out_badge_color_scheme": "inverse",
       "accent_icons": "text",
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -296,8 +324,8 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "text": "WELCOME TO OUR STORE",
-                "color_scheme": "accent-1",
+                "text": "Welcome to our store",
+                "color_scheme": "background-1",
                 "link": ""
               }
             }
@@ -313,11 +341,10 @@
           "settings": {
             "color_scheme": "background-1",
             "logo": "{{ shop.brand.logo }}",
-            "logo_width": 80,
+            "logo_width": 90,
             "logo_position": "middle-left",
             "menu": "main-menu",
-            "menu_type_desktop": "dropdown",
-            "show_line_separator": false,
+            "show_line_separator": true,
             "enable_sticky_header": true,
             "margin_bottom": 0,
             "padding_top": 20,
@@ -327,44 +354,44 @@
         "footer": {
           "type": "footer",
           "blocks": {
-            "link-list": {
+            "footer-0": {
               "type": "link_list",
               "settings": {
-                "heading": "ABOUT US",
+                "heading": "Quick links",
                 "menu": "footer"
               }
             },
-            "image": {
-              "type": "image",
+            "footer-1": {
+              "type": "link_list",
               "settings": {
-                "image_width": 70,
-                "alignment": "right"
+                "heading": "Info",
+                "menu": "footer"
               }
             },
-            "text": {
+            "footer-2": {
               "type": "text",
               "settings": {
-                "heading": "",
+                "heading": "Our mission",
                 "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
               }
             }
           },
           "block_order": [
-            "link-list",
-            "image",
-            "text"
+            "footer-0",
+            "footer-1",
+            "footer-2"
           ],
           "settings": {
-            "color_scheme": "background-2",
-            "newsletter_enable": false,
-            "newsletter_heading": "",
+            "color_scheme": "background-1",
+            "newsletter_enable": true,
+            "newsletter_heading": "Subscribe to our emails",
             "show_social": true,
             "enable_country_selector": false,
             "enable_language_selector": false,
             "payment_enable": true,
-            "margin_top": 0,
-            "padding_top": 40,
-            "padding_bottom": 40
+            "margin_top": 48,
+            "padding_top": 36,
+            "padding_bottom": 36
           }
         },
         "main-password-header": {
