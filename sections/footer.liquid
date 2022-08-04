@@ -36,6 +36,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
@@ -44,11 +45,11 @@
       {%- if section.blocks.size > 0 -%}
         {%- liquid
           if section.blocks.size == 9
-            assign footer_grid_class = 'grid--4-col-tablet'
+            assign footer_grid_class = 'grid--5-col-tablet'
           elsif section.blocks.size > 6
-            assign footer_grid_class = 'grid--4-col-desktop'
+            assign footer_grid_class = 'grid--5-col-desktop'
           elsif section.blocks.size > 4
-            assign footer_grid_class = 'grid--4-col-tablet'
+            assign footer_grid_class = 'grid--5-col-tablet'
           endif
         -%}
 
