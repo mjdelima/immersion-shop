@@ -46,12 +46,6 @@
   }
 }
 
-ul.site-footer__linklist{
--webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-}
-ul.site-footer__linklist li{display:block!important;}
 
 
 
@@ -59,8 +53,20 @@ ul.site-footer__linklist li{display:block!important;}
   .footer__content-top .grid {
     row-gap: 6rem;
     margin-bottom: 0;
-  }
+  } 
 }
+
+
+@media only screen and (min-width: 750px){
+ul.site-footer__linklist{
+-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+  
+ul.site-footer__linklist li{display:block!important;}
+}
+
 
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
