@@ -523,7 +523,7 @@ noscript .localization-selector.link {
 
 
 @media screen and (min-width: 591px){
-.main-content { padding-bottom: 0px !important;}
+.main-content { padding-left: 250px !important;}
 }
 
 .site-footer { padding-top: 30px;}
