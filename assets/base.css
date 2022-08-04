@@ -2889,3 +2889,10 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+
+@media only screen and (min-width: 46.85em){
+.collection-wrapper {padding: 0 0rem !important;}
+.collection-list {padding: 1rem 0rem 0 !important;}
+.page {padding: 5rem 0rem !important;}
+}
