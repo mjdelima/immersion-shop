@@ -16,7 +16,6 @@
   .footer .grid{
     padding-left: 15%;
     padding-right: 15%;
-    grid-template-columns: repeat(2,1fr);
   }
 }
 
