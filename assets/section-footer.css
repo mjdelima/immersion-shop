@@ -46,7 +46,13 @@
   }
 }
 
-
+ul.site-footer__linklist{
+-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+ul.site-footer__linklist li{display:block!important;}
+}
 
 
 @media screen and (min-width: 750px) {
