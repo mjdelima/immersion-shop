@@ -17,16 +17,14 @@
     padding-left: 15%;
     padding-right: 15%;
   }
-
   
-ul.site-footer__linklist{
--webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-}
-
-ul.site-footer__linklist li{display:block!important;}
-}
+    ul.site-footer__linklist{
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+    ul.site-footer__linklist li{display:block!important;}
+  }
 
 }
 
