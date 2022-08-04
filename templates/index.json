@@ -239,8 +239,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16595785277353e7c3": {
@@ -268,16 +268,16 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "1659582280a1c98a30": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"powr-form-builder\" id=\"50f25ff9_1659581891\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
+        "custom_liquid": "<div class=\"powr-form-builder\" id=\"9be67411_1659588530\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
