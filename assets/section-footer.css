@@ -11,11 +11,6 @@
   display: block;
 }
 
-@media only screen and (min-width: 46.85em){
-.collection-wrapper {padding: 0 0rem !important;}
-.collection-list {padding: 1rem 0rem 0 !important;}
-.page {padding: 5rem 0rem !important;}
-}
 
 @media screen and (max-width: 749px) {
   .footer .grid {
@@ -204,6 +199,11 @@
   .footer__list-social.list-social {
     justify-content: center;
   }
+}
+
+.content-for-layout{
+margin-left: 25px;
+margin-right: 25px;
 }
 
 @media screen and (min-width: 750px) {
