@@ -12,12 +12,6 @@
   display: block;
 }
 
-.content-for-layout{
-margin-left: 250px;
-margin-right: 250px;
-}
-
-
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
