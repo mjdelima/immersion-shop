@@ -197,6 +197,7 @@ ul.site-footer__linklist li{display:block!important;}
 
 .footer-block__newsletter {
   text-align: center;
+  margin: 0px;
 }
 
 .newsletter-form__field-wrapper {
