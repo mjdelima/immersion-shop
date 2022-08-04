@@ -526,7 +526,7 @@ noscript .localization-selector.link {
 .main-content { padding-left: 250px !important;}
 }
 
-.site-footer { padding-top: 30px;}
+.site-footer { padding-left: 250px;}
 footer.site-footer.small--text-center {
     background-color: #efefef !important;
 }
