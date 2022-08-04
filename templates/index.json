@@ -315,6 +315,16 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16595805606bca7c55": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Get in Touch",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -325,6 +335,7 @@
     "165951372748e94c45",
     "165950869153e1e2d0",
     "16595760878423e91d",
-    "16595785277353e7c3"
+    "16595785277353e7c3",
+    "16595805606bca7c55"
   ]
 }
