@@ -12,9 +12,6 @@
   display: block;
 }
 
-@media screen{
-.main-content { padding-bottom: 500px;}
-}
 
 @media screen and (max-width: 749px) {
   .footer .grid {
