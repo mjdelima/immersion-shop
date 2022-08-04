@@ -10,7 +10,13 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
-  
+}
+
+@media screen{
+  .footer .grid{
+     padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
 
