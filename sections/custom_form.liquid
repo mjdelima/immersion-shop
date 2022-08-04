@@ -1,0 +1,21 @@
+{% form 'contact' %}
+  {{ form.errors | default_errors }}
+
+  
+  <div class="email">
+    <input type="email" name="contact[email]" id="email" onfocus="this.value=''" value="Your Email"/>
+  </div>
+
+  <div class="first-name">
+    <input type="text" name="contact[first_name]" id="first-name" onfocus="this.value=''" value="Person"/>
+  </div>
+
+
+  <div class="message">
+    <textarea name="contact[body]" id="message" onfocus="this.value=''" value="Your Email"></textarea>
+  </div>
+
+  <div class="submit">
+    <input type="submit" value="SEND NOW" />
+  </div>
+{% endform %}
