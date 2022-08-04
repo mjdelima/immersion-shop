@@ -145,6 +145,7 @@
     },
     "16595130508f4df6bd": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/collage.png",
         "image_overlay_opacity": 0,
@@ -157,33 +158,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "165950869153e1e2d0": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "BEST SELLING PRODUCTS",
-        "heading_size": "h1",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "camera",
-        "products_to_show": 4,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "165951372748e94c45": {
@@ -241,6 +215,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165950869153e1e2d0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLING PRODUCTS",
+        "heading_size": "h1",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "camera",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -248,7 +249,7 @@
     "1659508006ddd21e5b",
     "16595091758c520e78",
     "16595130508f4df6bd",
-    "165950869153e1e2d0",
-    "165951372748e94c45"
+    "165951372748e94c45",
+    "165950869153e1e2d0"
   ]
 }
