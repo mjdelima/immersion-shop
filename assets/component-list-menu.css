@@ -28,16 +28,3 @@
   width: 10rem;
   padding: 0.5rem;
 }
-
-ul.site-footer__linklist {
-display: block !important;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-}
