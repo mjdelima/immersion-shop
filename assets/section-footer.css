@@ -519,3 +519,14 @@ noscript .localization-selector.link {
     }
   }
 }
+
+
+
+@media screen and (min-width: 591px){
+.main-content { padding-bottom: 0px !important;}
+}
+
+.site-footer { padding-top: 30px;}
+footer.site-footer.small--text-center {
+    background-color: #efefef !important;
+}
