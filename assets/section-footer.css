@@ -10,8 +10,11 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
-  margin-left: 200px;
-  margin-right: 200px;
+}
+
+.content-for-layout{
+margin-left: 250px;
+margin-right: 250px;
 }
 
 
