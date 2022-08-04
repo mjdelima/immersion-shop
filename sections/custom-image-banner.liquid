@@ -29,13 +29,11 @@
   }
 {%- endstyle -%}
 
+
+
+
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-  <div>
-    <div>TESTIMONIALS</div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.</p>
-    <p>Adipiscing dignissim euismod ad venenatis volutpat sociis feugiat purus ridiculus rhoncus nullam sodales euismod ad venenatis volutpa ridiculus.</p>
-    <p>John Does - Foot Ball Player</p>
-  </div>
+  
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
       {%-liquid
@@ -93,9 +91,22 @@
     </div>
   {%- endif -%}
 
+
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
-      
+      <div>
+        <h1 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          <span>TESTIMONIALS</span>
+        </h1>
+
+        <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+          <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.</p>
+          
+          <p style="font-size: 20px">Adipiscing dignissim euismod ad venenatis volutpat sociis feugiat purus ridiculus rhoncus nullam sodales euismod ad venenatis volutpa ridiculus.</p>
+          <p><span style="font-weight: bold;">John Does </span> - Foot Ball Player</p>  
+        </div>
+      </div>
     </div>
   </div>
 </div>
