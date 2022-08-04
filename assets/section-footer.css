@@ -52,7 +52,7 @@ ul.site-footer__linklist{
     column-count: 2;
 }
 ul.site-footer__linklist li{display:block!important;}
-}
+
 
 
 @media screen and (min-width: 750px) {
