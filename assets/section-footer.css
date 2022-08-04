@@ -201,10 +201,6 @@
   }
 }
 
-.content-for-layout{
-margin-left: 25px;
-margin-right: 25px;
-}
 
 @media screen and (min-width: 750px) {
   .footer-block__newsletter + .footer__list-social {
