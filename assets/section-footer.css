@@ -150,7 +150,7 @@ ul.site-footer__linklist li{display:block!important;}
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 3rem;
+  margin-top: 0rem;
 }
 
 .footer-block--newsletter:only-child {
@@ -197,7 +197,6 @@ ul.site-footer__linklist li{display:block!important;}
 
 .footer-block__newsletter {
   text-align: center;
-  margin: 0px;
 }
 
 .newsletter-form__field-wrapper {
