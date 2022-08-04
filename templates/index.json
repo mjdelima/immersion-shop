@@ -143,6 +143,62 @@
         "show_text_below": true
       }
     },
+    "165958913538bc490e": {
+      "type": "image-banner",
+      "blocks": {
+        "1659589135a20c673a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Premium Shopify theme",
+            "text_style": "body"
+          }
+        },
+        "1659589135a20c673a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMFORTABLE SPORT CLOTHING FOR ALL",
+            "heading_size": "h1"
+          }
+        },
+        "75951e8d-f654-4c77-8f4a-f1946b0714e5": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.",
+            "text_style": "body"
+          }
+        },
+        "1659589135a20c673a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "CHECK NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1659589135a20c673a-1",
+        "1659589135a20c673a-0",
+        "75951e8d-f654-4c77-8f4a-f1946b0714e5",
+        "1659589135a20c673a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4527_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "16595130508f4df6bd": {
       "type": "image-banner",
       "disabled": true,
@@ -301,6 +357,7 @@
     "16595076746efeb4eb",
     "1659508006ddd21e5b",
     "16595091758c520e78",
+    "165958913538bc490e",
     "16595130508f4df6bd",
     "16595889956afe4c62",
     "165951372748e94c45",
