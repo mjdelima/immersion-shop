@@ -245,6 +245,7 @@
     },
     "16595760878423e91d": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16595760876587dd1d-0": {
           "type": "heading",
@@ -286,6 +287,34 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "16595785277353e7c3": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "165957852701b78bb0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "165957852701b78bb0-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4527.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -295,6 +324,7 @@
     "16595130508f4df6bd",
     "165951372748e94c45",
     "165950869153e1e2d0",
-    "16595760878423e91d"
+    "16595760878423e91d",
+    "16595785277353e7c3"
   ]
 }
