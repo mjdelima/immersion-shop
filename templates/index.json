@@ -266,20 +266,12 @@
             "text": "Adipiscing dignissim euismod ad venenatis volutpat sociis feugiat purus ridiculus rhoncus nullam sodales euismod ad venenatis volutpa ridiculus.",
             "text_style": "body"
           }
-        },
-        "03022390-bc9b-459d-b978-6303c96eb750": {
-          "type": "heading",
-          "settings": {
-            "heading": "John Does - Foot Ball Player",
-            "heading_size": "h2"
-          }
         }
       },
       "block_order": [
         "16595760876587dd1d-0",
         "16595760876587dd1d-1",
-        "896ef4c0-0180-4b47-bb8d-f270a3ae283f",
-        "03022390-bc9b-459d-b978-6303c96eb750"
+        "896ef4c0-0180-4b47-bb8d-f270a3ae283f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4527.png",
