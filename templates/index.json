@@ -242,6 +242,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16595760878423e91d": {
+      "type": "image-banner",
+      "blocks": {
+        "16595760876587dd1d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TESTIOMIALS",
+            "heading_size": "h1"
+          }
+        },
+        "16595760876587dd1d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16595760876587dd1d-0",
+        "16595760876587dd1d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4527.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -250,6 +286,7 @@
     "16595091758c520e78",
     "16595130508f4df6bd",
     "165951372748e94c45",
-    "165950869153e1e2d0"
+    "165950869153e1e2d0",
+    "16595760878423e91d"
   ]
 }
