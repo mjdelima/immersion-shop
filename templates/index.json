@@ -160,6 +160,22 @@
         "show_text_below": true
       }
     },
+    "16595889956afe4c62": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Desktop_-_29.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "165951372748e94c45": {
       "type": "collage",
       "blocks": {
@@ -286,6 +302,7 @@
     "1659508006ddd21e5b",
     "16595091758c520e78",
     "16595130508f4df6bd",
+    "16595889956afe4c62",
     "165951372748e94c45",
     "165950869153e1e2d0",
     "16595785277353e7c3",
