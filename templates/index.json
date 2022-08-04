@@ -243,51 +243,6 @@
         "padding_bottom": 36
       }
     },
-    "16595760878423e91d": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16595760876587dd1d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "TESTIOMIALS",
-            "heading_size": "h1"
-          }
-        },
-        "16595760876587dd1d-1": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At blandit hac cras sed.",
-            "text_style": "body"
-          }
-        },
-        "896ef4c0-0180-4b47-bb8d-f270a3ae283f": {
-          "type": "text",
-          "settings": {
-            "text": "Adipiscing dignissim euismod ad venenatis volutpat sociis feugiat purus ridiculus rhoncus nullam sodales euismod ad venenatis volutpa ridiculus.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "16595760876587dd1d-0",
-        "16595760876587dd1d-1",
-        "896ef4c0-0180-4b47-bb8d-f270a3ae283f"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_4527.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "16595785277353e7c3": {
       "type": "custom-image-banner",
       "blocks": {
@@ -333,7 +288,6 @@
     "16595130508f4df6bd",
     "165951372748e94c45",
     "165950869153e1e2d0",
-    "16595760878423e91d",
     "16595785277353e7c3",
     "1659582280a1c98a30"
   ]
